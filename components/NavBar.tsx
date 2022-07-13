@@ -2,8 +2,9 @@ import React, {useState} from "react"
 import {FaBars, FaTimes} from "react-icons/fa"
 
 interface Props {
-    id:number,
-    link:string
+    id ?:number,
+    link ?:string,
+    links ?: {}
 }
 
 const NavBar : React.FC <Props>= () => {
